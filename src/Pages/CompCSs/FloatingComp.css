@@ -1,0 +1,19 @@
+.FloatingComp{
+    display: flex;
+    background: white;
+    /* justify-content: space-evenly; */
+    box-shadow: var(--boxShadow);
+    border-radius: 17px;
+    align-items: center;
+    padding: 0px 28px 0px 0px;
+    height: 4.5rem;
+    gap: 0rem;
+}
+
+.FloatingComp>img{
+    transform: scale(0.4);
+}
+.FloatingComp>span{
+    font-family: sans-serif;
+    font-size: 1rem;
+}

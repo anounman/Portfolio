@@ -11,7 +11,7 @@
     gap: 2rem;
 }
 .name {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -34,6 +34,6 @@
 
 .nav-item>ul>li:hover {
     cursor: pointer;
-    color: var(--orange);
+    color: var(--purple);
 
 }

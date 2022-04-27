@@ -26,23 +26,75 @@
     font-size: 3rem;
 }
 .type{
-    color: var(--orange);
+    color: var(--purple);
     font-weight: bold;
     font-size: 3rem;
 }
 
 .hero-name > :nth-child(3){
     font-weight: 100;
-    font-size: 14px;
+    font-size: 1.5rem;
     color: var(--gray);
     margin-top: 10px;   
 }
+
 .hero-btn {
     width: 6rem;
-    height: 2rem;
+    height: 3rem;
+}
 
+.hero-icon {
+    margin-top: 2rem;
+    display: flex;
+    gap: 0rem;
+}
+
+.hero-icon>*{
+    transform: scale(0.5);
+}
+
+.hero-icon:hover{
+    cursor: pointer;
 }
 
 .hero-right {
     flex: 1;
+}
+.hero-right>*{
+    position: absolute;
+    z-index: 1;
+}
+
+.hero-right>:nth-child(1){
+    transform: scale(0.69);
+    right: 8%;
+    top: 20%;
+}
+
+.hero-right>:nth-child(2){
+    top: 5.6rem;
+    transform: scale(0.67);
+    right: 2rem;
+}
+.hero-right>:nth-child(3){
+    top: 5.6rem;
+    transform: scale(1.4);
+    right: 14rem;
+    top: 10.5rem;
+}
+.hero-right>:nth-child(4){
+    transform: scale(0.7);
+    top: 5rem;
+    border-radius: 50%;
+}
+.effect {
+    position: absolute;
+    width: 25rem;
+    height: 20rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    z-index: -9;
+    top: 18%;
+    left: 56%;
+    filter: blur(72px);
 }

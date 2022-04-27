@@ -22,7 +22,7 @@
   color: white;
   font-size: 16px;
   padding: 15px 32px;
-  background: linear-gradient(185deg, var(--orange) 12%, var(--yellow) 78% );
+  background: linear-gradient(185deg, var(--purple) 12%, var(--yellow) 78% );
   box-shadow: 0px 20px 24px 3px rgb(251 , 161, 40 , 0.42);
 }
 .button:hover {
