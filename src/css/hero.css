@@ -1,0 +1,48 @@
+.hero{
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+}
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex: 1;
+    gap: 2rem;
+
+}
+.hero-name {
+    display: flex;
+    flex-direction: column;   
+}
+.hero-name > :nth-child(1){
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+}
+.hero-name > :nth-child(2){
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+}
+.type{
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.hero-name > :nth-child(3){
+    font-weight: 100;
+    font-size: 14px;
+    color: var(--gray);
+    margin-top: 10px;   
+}
+.hero-btn {
+    width: 6rem;
+    height: 2rem;
+
+}
+
+.hero-right {
+    flex: 1;
+}
